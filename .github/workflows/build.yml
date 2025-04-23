@@ -35,6 +35,8 @@ jobs:
     - name: Build
       run: quasar build
       working-directory: ${{env.working-directory}}
+    - name: Create .nojekyll file
+      run: echo > src/Frontend/dist/spa/.nojekyll
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
       with:
