@@ -1,8 +1,8 @@
 {
-  "name": "quasar-2025-04",
+  "name": "css-content-visibility",
   "version": "0.0.1",
   "description": "A Quasar Project",
-  "productName": "Quasar App",
+  "productName": "css-content-visibility",
   "author": "Tino Hager <tino.hager@nager.at>",
   "type": "module",
   "private": true,
