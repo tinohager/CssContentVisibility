@@ -35,6 +35,8 @@ jobs:
     - name: Build
       run: quasar build
       working-directory: ${{env.working-directory}}
+    # Prevent GitHub Pages from ignoring files and folders that start with an underscore,
+    # such as _plugin-vue_export-helper.js, by creating a .nojekyll file in the output directory.
     - name: Create .nojekyll file
       run: echo > src/Frontend/dist/spa/.nojekyll
     - name: Deploy 🚀
