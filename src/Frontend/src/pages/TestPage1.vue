@@ -16,7 +16,7 @@
 <style scoped>
 .box {
   content-visibility: auto;
-  contain-intrinsic-size: auto 102px;
+  contain-intrinsic-size: auto 121px;
 }
 
 .box-green {
