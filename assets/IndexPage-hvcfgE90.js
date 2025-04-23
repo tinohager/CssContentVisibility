@@ -1,0 +1,1 @@
+import{Q as e}from"./QPage-L-wUyX_G.js";import{_ as o}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{u as r,y as s,v as a,A as n}from"./index-Da8iUopY.js";import"./render-DjSmuU3c.js";const i={};function c(f,t){return s(),r(e,null,{default:a(()=>t[0]||(t[0]=[n(" Test with content-visibility ")])),_:1})}const d=o(i,[["render",c]]);export{d as default};
