@@ -1,5 +1,6 @@
 <template>
   <q-page>
+    10000 Elements
     <div
       v-for="index in 10000"
       :key="index"

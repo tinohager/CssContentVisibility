@@ -32,6 +32,24 @@
         >
           <q-item-section class="text-uppercase text-weight-medium"> Page2 </q-item-section>
         </q-item>
+        <q-item
+          clickable
+          exact
+          active-class="text-white bg-grey-8 inset-shadow"
+          role="menuitem"
+          to="page3"
+        >
+          <q-item-section class="text-uppercase text-weight-medium"> Page3 </q-item-section>
+        </q-item>
+        <q-item
+          clickable
+          exact
+          active-class="text-white bg-grey-8 inset-shadow"
+          role="menuitem"
+          to="page4"
+        >
+          <q-item-section class="text-uppercase text-weight-medium"> Page4 </q-item-section>
+        </q-item>
       </q-toolbar>
     </q-header>
 

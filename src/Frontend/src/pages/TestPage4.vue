@@ -1,8 +1,8 @@
 <template>
   <q-page>
-    10000 Elements with content-visibility
+    1000 Elements
     <div
-      v-for="index in 10000"
+      v-for="index in 1000"
       :key="index"
       class="box"
       :class="index % 2 === 0 ? 'box-green' : 'box-blue'"
@@ -15,8 +15,6 @@
 
 <style scoped>
 .box {
-  content-visibility: auto;
-  contain-intrinsic-size: auto 102px;
 }
 
 .box-green {
